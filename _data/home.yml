@@ -28,7 +28,7 @@ project_entries:
 
   - title: Project 5
     url: overview-post
-    desc:관리자페이지<br>-카테고리,통계<br>-공지사항,이벤트관리<br>-상품판매관리<br>-QnA관리(답변)
+    desc: 관리자페이지<br>-카테고리,통계<br>-공지사항,이벤트관리<br>-상품판매관리<br>-QnA관리(답변)
     highlight: WIP
 
   - title: Project 6
