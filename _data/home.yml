@@ -11,24 +11,24 @@ navbar_entries:
 project_entries:
   - title: 1
     url: overview-post
-    desc: 회원가입<br>로그인<br>비밀번호찾기
+    desc: -회원가입<br>-로그인<br>-비밀번호찾기
 
   - title: 2
     url: overview-post
-    desc: 판매페이지<br>구매페이지
+    desc: -상품판매<br>-상품구매
 
   - title: 3
     url: overview-post
-    desc: QnA<br>질문<br>조회<br>수정<br>삭제
+    desc: QnA[질문]<br>-등록<br>-조회<br>-수정<br>-삭제
 
   - title: Project 4
     url: overview-post
-    desc: MyPage<br>내정보수정<br>비밀번호변경<br>탈퇴,채팅<br>나의구매내역<br>나의질문내역<br>나의판매내역
+    desc: MyPage<br>-내정보수정<br-비밀번호변경<br>-탈퇴,-채팅<br>-구매,질문,판매내역<br>-배송지등록
     highlight: WIP
 
   - title: Project 5
     url: overview-post
-    desc:
+    desc:관리자페이지<br>-카테고리,통계<br>-공지사항,이벤트관리<br>-상품판매관리<br>-QnA관리(답변)<br>
     highlight: WIP
 
   - title: Project 6
