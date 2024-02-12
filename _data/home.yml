@@ -2,8 +2,8 @@ navbar_entries:
   - title: about
     url: about
 
-  - title: blog
-    url: blog
+  - title: skills
+    url: skills
 
   - title: website
     url: https://www.abhinav.co
