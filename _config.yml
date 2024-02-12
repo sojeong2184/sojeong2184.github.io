@@ -1,10 +1,10 @@
 remote_theme: abhinavs/moonwalk
-title: SojeongGo
+title: 고소정
 author: Abhinav Saxena
 url: https://sojeong2184.github.io
 description: > # description of the site (multiple lines allowed)
-phon: 010-8718-2184
-email : thwjd5122999@gmail.com
+phon.010-8718-2184
+email.thwjd5122999@gmail.com
 
 permalink: /:slug
 
