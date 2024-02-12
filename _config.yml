@@ -36,7 +36,7 @@ theme_config:
   home:
     title_projects: Portfolio
     title_misc_list: Details
-    title_skills:Blog
+    title_skills: Skills
     title_old_projects: Old Projects
 
 soopr:
