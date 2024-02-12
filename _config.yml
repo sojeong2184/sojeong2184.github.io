@@ -37,6 +37,7 @@ theme_config:
     title_projects: Portfolio
     title_misc_list: Details
     title_skills: Skills
+    title_demo: Demo
     title_old_projects: Old Projects
 
 soopr:
