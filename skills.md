@@ -3,9 +3,7 @@ layout: post
 title: Skills
 ---
 <br> Language : Java
-<br> Back-End :
-<br> Spring boot,Jpa,QueryDsl,
-<br> Thymeleaf,websoket,
+<br> Back-End : Spring boot,Jpa,QueryDsl,Thymeleaf,websoket,
 <br> Front-End : HTML,CSS,JS
 <br> SpringSecurity,Lombok,querydsl
 <br> Server : AWS EC2
