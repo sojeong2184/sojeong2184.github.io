@@ -1,3 +1,4 @@
 ---
-layout: skills
+layout: post
+title: About
 ---
