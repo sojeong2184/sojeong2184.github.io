@@ -15,15 +15,15 @@ project_entries:
 
   - title: 2
     url: overview-post
-    desc: 중고물품 판매,구매
+    desc: 판매페이지<br>구매페이지
 
   - title: 3
     url: overview-post
-    desc: 
+    desc: QnA<br>질문<br>조회<br>수정<br>삭제
 
   - title: Project 4
     url: overview-post
-    desc: 
+    desc: MyPage<br>내정보수정<br>비밀번호변경<br>탈퇴,채팅<br>나의구매내역<br>나의질문내역<br>나의판매내역
     highlight: WIP
 
   - title: Project 5
