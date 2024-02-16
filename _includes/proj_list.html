@@ -21,7 +21,8 @@
     </div>
   
     <script>
-        const imagePaths = ["images/나무메인사진.png", "images/로그인.png", "images/나무메인사진.png"];
+       const imagePaths1 = ["images/1.png", "images/2.png", "images/33.png"];
+       const imagePaths2 = ["images/나무메인사진.png", "images/로그인.png", "images/나무메인사진.png"];
 
         // 이미지를 동적으로 변경하는 함수
       function changeImage(elementId) {
@@ -30,12 +31,12 @@
             dynamicImage.style.backgroundImage = `url(${imagePaths[randomIndex]})`;
         }
 
-      changeImage("dynamic-image1");
-        changeImage("dynamic-image2");
+   changeImage("dynamic-image1", imagePaths1);
+        changeImage("dynamic-image2", imagePaths2);
 
         setInterval(() => {
-            changeImage("dynamic-image1");
-            changeImage("dynamic-image2");
+            changeImage("dynamic-image1", imagePaths1);
+            changeImage("dynamic-image2", imagePaths2);
         }, 5000);
     </script>
 
