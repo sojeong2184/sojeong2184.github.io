@@ -1,17 +1,18 @@
 navbar_entries:
-  - title: about
+  - title: About
     url: about
 
   - title: skills
     url: skills
 
-  - title: website
-    url: https://www.abhinav.co
+  - title: Source code[Git]
+    url: https://github.com/sojeong2184/namu
+
 
 project_entries:
-  - title: 메인
+  - title: index
     url: overview-post
-    desc: -회원가입<br>-로그인<br>-비밀번호찾기
+    desc: -회원가입<br>-로그인<br>-비밀번호찾기<br>-검색
 
   - title: 거래
     url: overview-post
@@ -31,7 +32,7 @@ project_entries:
     desc: -카테고리,통계<br>-공지사항,이벤트관리<br>-상품판매관리<br>-QnA관리(답변)
     highlight: WIP
 
-  - title: 사이트접속
+  - title: namu바로가기
     url: http://13.209.68.225
     desc: namu.com
 
