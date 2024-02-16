@@ -17,7 +17,7 @@ project_entries:
     url: overview-post
     desc: -상품판매<br>-상품구매
 
-  - title: QnA
+  - title: qna
     url: overview-post
     desc: -등록<br>-조회<br>-수정<br>-삭제
 
