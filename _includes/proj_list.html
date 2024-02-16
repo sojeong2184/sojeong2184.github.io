@@ -25,7 +25,7 @@
        const imagePaths2 = ["images/나무메인사진.png", "images/로그인.png", "images/나무메인사진.png"];
 
         // 이미지를 동적으로 변경하는 함수
-      function changeImage(elementId) {
+      function changeImage(elementId, imagePaths) {
             const randomIndex = Math.floor(Math.random() * imagePaths.length);
             const dynamicImage = document.getElementById(elementId);
             dynamicImage.style.backgroundImage = `url(${imagePaths[randomIndex]})`;
