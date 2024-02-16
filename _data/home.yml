@@ -13,7 +13,7 @@ project_entries:
     url: overview-post
     desc: -회원가입<br>-로그인<br>-비밀번호찾기
 
-  - title: 회원기능
+  - title: -
     url: overview-post
     desc: -상품판매<br>-상품구매
 
