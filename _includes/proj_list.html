@@ -1,1 +1,42 @@
-<img src="images/나무메인사진.png" alt="나무 메인 사진"> 
+
+<head>
+   <style>
+     .image-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2개의 열을 가진 그리드 설정 */
+            gap: 10px; /* 열 사이의 간격 설정 */
+        }
+        .project-image {
+            width: 100%;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+ <div class="image-container">
+        <div class="project-image" id="dynamic-image1"></div>
+        <div class="project-image" id="dynamic-image2"></div>
+    </div>
+  
+    <script>
+        const imagePaths = ["images/나무메인사진.png", "images/로그인.png", "images/나무메인사진.png"];
+
+        // 이미지를 동적으로 변경하는 함수
+      function changeImage(elementId) {
+            const randomIndex = Math.floor(Math.random() * imagePaths.length);
+            const dynamicImage = document.getElementById(elementId);
+            dynamicImage.style.backgroundImage = `url(${imagePaths[randomIndex]})`;
+        }
+
+      changeImage("dynamic-image1");
+        changeImage("dynamic-image2");
+
+        setInterval(() => {
+            changeImage("dynamic-image1");
+            changeImage("dynamic-image2");
+        }, 5000);
+    </script>
+
+</body>
