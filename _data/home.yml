@@ -9,35 +9,35 @@ navbar_entries:
     url: https://www.abhinav.co
 
 project_entries:
-  - title: -
+  - title: 1
     url: overview-post
     desc: -회원가입<br>-로그인<br>-비밀번호찾기
 
-  - title: -
+  - title: 2
     url: overview-post
     desc: -상품판매<br>-상품구매
 
-  - title: qna
+  - title: 3
     url: overview-post
     desc: -등록<br>-조회<br>-수정<br>-삭제
 
-  - title: Mypage
+  - title: 4
     url: overview-post
     desc: -내정보수정<br-비밀번호변경<br>-탈퇴,-채팅<br>-구매,질문,판매내역<br>-배송지등록
     highlight: WIP
 
-  - title: 관리자페이지
+  - title: 5
     url: overview-post
     desc: -카테고리,통계<br>-공지사항,이벤트관리<br>-상품판매관리<br>-QnA관리(답변)
     highlight: WIP
 
-  - title: -
+  - title: 6
     url: overview-post
     desc: 
 
 old_project_entries:
   - title: Soopr
-    url: https://www.soopr.co
+    url: https://www.soopr.co6
     desc: Delight your readers - add beautiful share and like buttons easily to your websites 
     highlight: NEW
 
