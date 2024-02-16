@@ -31,9 +31,9 @@ project_entries:
     desc: -카테고리,통계<br>-공지사항,이벤트관리<br>-상품판매관리<br>-QnA관리(답변)
     highlight: WIP
 
-  - title: 6
-    url: overview-post
-    desc: 
+  - title: 사이트접속
+    url: http://13.209.68.225
+    desc: namu.com
 
 old_project_entries:
   - title: Soopr
