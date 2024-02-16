@@ -5,37 +5,3 @@
 <br> Server : AWS EC2
 <br> Database :MariaDB
 <br> Tools : Intellij
-
-<head>
-   <style>
-        .project-image {
-            width: 100%;
-            height: 200px;
-            background-size: cover;
-            background-position: center;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="project-image" id="dynamic-image"></div>
-
-    <script>
-        // 이미지 파일 경로들을 배열로 정의합니다.
-        const imagePaths = ["images/나무메인사진.png", "images/로그인.png", "images/나무메인사진.png"];
-
-        // 이미지를 동적으로 변경하는 함수
-        function changeImage() {
-            const randomIndex = Math.floor(Math.random() * imagePaths.length);
-            const dynamicImage = document.getElementById("dynamic-image");
-            dynamicImage.style.backgroundImage = `url(${imagePaths[randomIndex]})`;
-        }
-
-        // 페이지 로드 시 이미지 변경
-        changeImage();
-
-        // 일정 간격으로 이미지 변경 (예: 5초마다)
-        setInterval(changeImage, 5000);
-    </script>
-
-</body>
