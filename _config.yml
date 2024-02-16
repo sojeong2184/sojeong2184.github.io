@@ -26,6 +26,7 @@ theme_config:
   show_footer: true # show footer links in home page,add in _data/home.yml
   show_copyright: true # show copyright notice in footer
   # following keys are using to create home layout
+  show_proj: true # show proj as cards, add in _data/home.yml
   show_projects: true # show projects as cards, add in _data/home.yml
   show_skills: true # show skills posts added in _posts
   show_demo: true # show demo posts added in _posts
@@ -35,7 +36,8 @@ theme_config:
   show_tags: true # show tags in a blog posts
   # options for "home" page
   home:
-    title_projects: Portfolio
+    title_proj_list: NaMu란?
+    title_projects: 기능소개
     title_misc_list: Details
     title_skills: Skills
     title_demo: Demo
